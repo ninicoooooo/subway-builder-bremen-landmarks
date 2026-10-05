@@ -1,7 +1,7 @@
 {
   "id": "ninicoo-bremen-landmarks",
   "name": "Bremen Stadt – LoD2 Wahrzeichen",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Eigenständige Railyard-Fassung der Bremen-Karte mit Straßen und LoD2-Wahrzeichen; alte Bremen-Mods nicht gleichzeitig aktivieren.",
   "main": "index.js",
   "dependencies": {

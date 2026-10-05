@@ -1,8 +1,8 @@
 # Bremen Stadt – LoD2 Wahrzeichen
 
-By **NINICOO** · version **1.1.4** · registry ID **ninicoo-bremen-landmarks**.
+By **NINICOO** · version **1.1.5** · registry ID **ninicoo-bremen-landmarks**.
 
-Companion to the **Bremen Stadt – LoD2** map (`BRE`, registry ID `ninicoo-bremen-stadt-lod2`). Requires the map installed in Railyard and the Railyard Map Loader enabled. It adds 79 detailed landmark entries, preserves the road styling, excludes 101 replaced LoD1 entries, and hides building/ocean foundations by default.
+Companion to the **Bremen Stadt – LoD2** map (`BREM`, registry ID `ninicoo-bremen-stadt-lod2`). Requires the map installed in Railyard and the Railyard Map Loader enabled. It adds 79 detailed landmark entries, preserves the road styling, excludes 101 replaced LoD1 entries, and hides building/ocean foundations by default.
 
 Install the map and this mod, enable both this mod and Railyard Map Loader, and launch the game through Railyard. Do not simultaneously enable the earlier local Bremen companion mods.
 

@@ -180,8 +180,8 @@ import DATA from "./landmark-data.js";
   function hasBremenTiles(map) {
     const tiles = map.getStyle()?.sources?.["general-tiles"]?.tiles;
     // Tile URLs are authoritative while the city-load event and style reload overlap.
-    if (tiles?.length) return tiles.some((url) => /\/BRE\//.test(url));
-    return currentCity === "BRE";
+    if (tiles?.length) return tiles.some((url) => /\/BREM\//.test(url));
+    return currentCity === "BREM";
   }
 
   function updateBremenLayers() {
@@ -248,7 +248,7 @@ import DATA from "./landmark-data.js";
     });
 
 
-  api.map.setDefaultLayerVisibility("BRE", { buildingFoundations: false, oceanFoundations: false });
+  api.map.setDefaultLayerVisibility("BREM", { buildingFoundations: false, oceanFoundations: false });
   api.hooks.onCityLoad((code) => {
     currentCity = code;
     updateBremenLayers();
@@ -262,5 +262,5 @@ import DATA from "./landmark-data.js";
     }
     updateBremenLayers();
   });
-  console.info("[Bremen Railyard 1.1.4] Begleitmod geladen; Kartenserver wird von Railyard verwaltet");
+  console.info("[Bremen Railyard 1.1.5] Begleitmod geladen; Kartenserver wird von Railyard verwaltet");
 })();
